@@ -1,0 +1,38 @@
+html, body {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.settings {
+    margin-bottom: -20px;
+}
+
+.settings li, .settings ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.settings button {
+    margin-top: 20px;
+}
+
+.settings h2 {
+    float:left;
+}
+
+.settings .fpsslider {
+    margin-top: 23px;
+    margin-left:20px;
+}
+
+.settings .colorpicker {
+    margin-top: 16px;
+    margin-left:20px;
+}
+
+.settings .info {
+    margin-top: 23px;
+    margin-left:20px;
+    float:right;
+}

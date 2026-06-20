@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Experiment</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body style="background-color: rgb(27, 29, 31); display: flex; align-items: center; flex-direction: column;">
+        <canvas id="game"></canvas>
+
+        <div class="settings" id="fpssettings">
+            <h2>FPS:</h2>
+            <input type="range" min="1" max="144" value="24" class="fpsslider" id="fpsslider">
+            <h3 class="info" id="fpsinfo">24</h3>
+        </div>
+
+        <div class="settings" id="colorlines">
+            <h2>LINE COLOR:</h2>
+            <input type="color" value="#ffffff" class="colorpicker" id="colorpicker">
+        </div>
+
+        <div class="settings" id="items">
+            <h2>ITEMS:</h2>
+            <button id="linuxpeng_btn">Add Linux Penguin</button>
+            <button id="cube_btn">Add Cube</button>
+            <button id="clear_btn">Clear All</button>
+        </div>
+    </body>
+
+    <script src="penger.mjs" type="module"></script>
+    <script src="cube.mjs" type="module"></script>
+    <script src="main.js" type="module"></script>
+</html>
